@@ -1,27 +1,27 @@
-.container-header {
+.header {
     background: #2C3E50;
     height: 70px;
     color: white;
 }
-.container-main {
+.main {
     background: #1ABC9C;
     height: 500px;
 }
-.container-main1 {
+.main1 {
     height: 600px;
 }
-.container-main2 {
+.main2 {
     background: #1ABC9C;
     height: 400px;
 }
-.container-main3 {
+.main3 {
     height: 600px;
 }
-.container-footer {
+.footer {
     background: #3A546D;
     height: 200px;
 }
-.container-footer1 {
+.footer1 {
     background: #2C3E50;
     height: 70px;
 }
