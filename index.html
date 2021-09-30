@@ -71,7 +71,7 @@
                 </div>
                 <div class="img-main">
                     <div class="container">
-                            <div id="img-row" class="row text-center">
+                            <div id="img-row" class="row text-center row-cols-2 row-cols-lg-5 g-2 g-lg-3">
                                 <div class="col-12 col-sm-6 col-lg-4">
                                     <img src="img/cabin.png" alt="">
                                 </div> 
@@ -82,7 +82,7 @@
                                     <img src="img/circus.png" alt="">
                                 </div>
                             </div>
-                            <div id="img-row" class="row text-center">
+                            <div id="img-row" class="row text-center row-cols-2 row-cols-lg-5 g-2 g-lg-3">
                                 <div class="col-12 col-sm-6 col-lg-4">
                                     <img src="img/game.png" alt="">
                                 </div>   
@@ -94,24 +94,31 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                
             </div>
         </section>
-       
-        
         <section class="main2">
-            <div class="container">
+            <div class="container about">
                 <div class="row">
                     <div class="col-12 text-center text-white">
-                      <h1>ABOUT</h1>
+                      <h1 class="text-about">ABOUT</h1>
                       <div class="star">
                         <div class="line bg-white"></div>
                         <i id="first-star" class="fas fa-star"></i>
                         <div class="line bg-white"></div>
                       </div>
                     </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum totam similique nihil molestiae architecto doloremque, distinctio ad mollitia, ex, suscipit obcaecati reiciendis et? Doloremque officia voluptatibus neque facere amet quaerat!</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolorum excepturi reiciendis, maiores at illo dolor debitis odio voluptatum sit quas commodi, rerum, dolorem consectetur deserunt pariatur obcaecati illum nulla!</p>
+                    </div>
+                </div>
+                <div class=" text-center">
+                    <button type="button" class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
                 </div>
             </div>
             <div class="container">
@@ -123,16 +130,33 @@
 
         </section>
         <section class="main3">
-            <div class="container">
+            <div class="container contact">
                 <div class="row justify-content-md-center">
                     <div class="row">
                         <div class="col-12 text-center">
-                           <h1>CONTACT ME</h1>
+                           <h1 class="text-contact">CONTACT ME</h1>
                            <div class="star">
                               <div class="line bg-black"></div>
                               <i id="second-star" class="fas fa-star"></i>
                               <div class="line bg-black"></div>
                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 form">
+                                <div class="mb-3">
+                                    <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="Name">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
+                                </div>
+                                <div class="mb-3">
+                                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                                </div>
+                                <div class="mb-3">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="4"></textarea>
+                                </div>
+                                <button type="button" class="btn btn-success">Send</button>
+                            </div>    
                         </div>
                     </div>
                 </div>
@@ -141,19 +165,22 @@
     </main>
     <footer>
         <section class="footer">
-            <div class="container">
-                <div class="row text-center text-white">
+            <div class="container location">
+                <div class="row text-center g-5 text-white">
                     <div class="col-4">
                         <h5>LOCATION</h5>
-
+                        <p class="text-footer">2215 John Daniel Drive Clark, MO <br>54234</p>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 ">
                         <h5>AROUND THE WEB</h5>
-
+                        <div class="icon uno"><i class="fab fa-facebook-f"></i></div>
+                        <div class="icon due"><i class="fab fa-google-plus-g"></i></div>
+                        <div class="icon tre"><i class="fab fa-twitter"></i></div>
+                        <div class="icon quattro"><i class="fab fa-linkedin-in"></i></div>
                     </div>
                     <div class="col-4">
                         <h5>ABOUT FREELANCER</h5>
-
+                        <p class="text-footer">Freelencer is a free to use, open source <br>Bootstrap theme created by <span class="text-start">start <br>Bootstrap</span></p>
                     </div>
                 </div>
             </div>
@@ -161,8 +188,8 @@
         <section class="footer1">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 text-center text-white">
-                        copy
+                    <div class="col-12 text-center text-white g-3">
+                        <p class="text-copyright">Copyright <i class="far fa-copyright"></i> Your Website 2019</p>
                     </div>
                 </div>
             </div>

@@ -41,6 +41,7 @@ a{
 .text {
     font-size: 17px;
     margin-top: 15px;
+    color: white;
 }
 .main1 {
     height: 100%;
@@ -53,6 +54,9 @@ a{
 #second-star {
     margin: 0 15px;
 }
+.text-about {
+    margin-top: 60px;
+}
 .img-main {
     margin-top: 20px;
     margin-bottom: 70px;
@@ -64,16 +68,91 @@ a{
 }
 .main2 {
     background: #1ABC9C;
-    height: 400px;
+    height: 100%;
+}
+.btn-outline-light {
+    width: 150px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+.about {
+    width: 72%;
+    margin: auto;
 }
 .main3 {
     height: 600px;
 }
+.text-contact {
+    margin-top: 60px;
+}
+.contact {
+    width: 72%;
+    margin: auto;
+}
+.form {
+    margin-top: 40px;
+}
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+}
+.btn-success {
+    background: #1ABC9C;
+    border: none;
+}
 .footer {
     background: #3A546D;
-    height: 200px;
+    height: 100%;
 }
 .footer1 {
     background: #2C3E50;
     height: 70px;
 }
+.text-footer {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+.text-start {
+    color: #1BBA9B;
+}
+.icon {
+    display: inline-block;
+}
+.fab, .far {
+    font-weight: 400;
+    margin: 10px;
+}
+.uno {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 42px;
+    height: 40px;
+}
+.due {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 42px;
+    height: 40px
+}
+.tre {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 42px;
+    height: 40px
+}
+.quattro {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 42px;
+    height: 40px
+}
+.location {
+    width: 72%;
+    margin: auto;
+}
+.text-copyright {
+    font-size: 10px;
+}
+
